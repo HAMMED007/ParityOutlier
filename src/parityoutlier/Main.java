@@ -26,7 +26,7 @@ public class FindOutlier {
         ArrayList<Integer> odd_number = new ArrayList();
         ArrayList<Integer> even_number = new ArrayList();
         int result1 = 0;
-        int result2 = 0;
+        
 
 
         for (int i = 0; i < integers.length; i++) {
@@ -52,7 +52,7 @@ public class FindOutlier {
 
 
     }
-        return Math.max(result1,result2);
+        return result1;
     }}
 }
 
@@ -84,7 +84,7 @@ public class FindOutlier {
             }
         }
         int result1 = 0;
-        int result2 = 0;
+      
 
         if (odd.length < even.length){
             for (int i = 0; i < odd.length; i++) {
@@ -96,7 +96,7 @@ public class FindOutlier {
 
 
             }
-        return Math.max(result1,result2);
+        return result1;
     }
 }
 */
